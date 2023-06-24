@@ -78,7 +78,7 @@
         combo_mns{
             timeout-ms = <50>;
             key-positions = <23 24>;
-            bindings = <&kp MINUS>;
+            bindings = <&kp UNDER>;
         };
         combo_eql{
             timeout-ms = <50>;
