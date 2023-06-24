@@ -14,10 +14,108 @@
 #define RSE 2
 #define ADJ 3
 
-&lt { quick-tap-ms = <200>; };
-&mt { quick-tap-ms = <200>; };
+&lt { quick-tap-ms = <125>; };
+&mt { quick-tap-ms = <125>; };
 
 / {
+        combos {
+        compatible = "zmk,combos";
+        combo_cps {
+            timeout-ms = <50>;
+            key-positions = <19 40>;
+            bindings = <&kp CAPS>;
+        };
+        combo_cpsl {
+            timeout-ms = <50>;
+            key-positions = <16 37>;
+            bindings = <&kp CAPS>;
+        };
+        combo_cps1 {
+            timeout-ms = <20>;
+            key-positions = <15 16>;
+            bindings = <&kp CAPS>;
+        };
+        combo_cps2 {
+            timeout-ms = <20>;
+            key-positions = <19 20>;
+            bindings = <&kp CAPS>;
+        };
+        combo_lbrc{
+            timeout-ms = <50>;
+            key-positions = <4 5>;
+            bindings = <&kp LBKT>;
+        };
+        combo_rbrc{
+            timeout-ms = <50>;
+            key-positions = <6 7>;
+            bindings = <&kp RBKT>;
+        }; 
+        combo_lbr{
+            timeout-ms = <50>;
+            key-positions = <16 17>;
+            bindings = <&kp LPAR>;
+        };
+        combo_rbr{
+            timeout-ms = <50>;
+            key-positions = <18 19>;
+            bindings = <&kp RPAR>;
+        };
+        combo_lcbr{
+            timeout-ms = <50>;
+            key-positions = <28 29>;
+            bindings = <&kp LBRC>;
+        };
+        combo_rcbr{
+            timeout-ms = <50>;
+            key-positions = <30 31>;
+            bindings = <&kp RBRC>;
+        };
+        combo_mins{
+            timeout-ms = <50>;
+            key-positions = <20 21>;
+            bindings = <&kp MINUS>;
+        };
+        combo_mns{
+            timeout-ms = <50>;
+            key-positions = <21 22>;
+            bindings = <&kp MINUS>;
+        };
+        combo_eql{
+            timeout-ms = <50>;
+            key-positions = <7 8>;
+            bindings = <&kp EQUAL>;
+        };
+        combo_pls{
+            timeout-ms = <50>;
+            key-positions = <31 32>;
+            bindings = <&kp PLUS>;
+        };
+        combo_spc{
+            timeout-ms = <50>;
+            key-positions = <8 9>;
+            bindings = <&kp SPACE>;
+        };
+        combo_ent{
+            timeout-ms = <50>;
+            key-positions = <4 17>;
+            bindings = <&kp RET>;
+        };
+        combo_bksp{
+            timeout-ms = <50>;
+            key-positions = <3 4>;
+            bindings = <&kp BSPC>;
+        };
+        combo_lalp{
+            timeout-ms = <50>;
+            key-positions = <9 10>;
+            bindings = <&kp LA(P)>;
+        };
+        combo_f1{
+            timeout-ms = <50>;
+            key-positions = <0 1>;
+            bindings = <&kp F1>;
+        };
+    };
         keymap {
                 compatible = "zmk,keymap";
 
