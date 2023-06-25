@@ -110,6 +110,11 @@
             key-positions = <10 11>;
             bindings = <&kp LA(P)>;
         };
+        combo_lalp2{
+            timeout-ms = <20>;
+            key-positions = <11 12>;
+            bindings = <&kp RG(LBKT)>;
+        };
     };
         keymap {
                 compatible = "zmk,keymap";
