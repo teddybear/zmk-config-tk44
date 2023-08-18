@@ -38,18 +38,6 @@
             bindings = <&kp CAPS>;
         };
 
-        combo_cps1 {
-            timeout-ms = <20>;
-            key-positions = <17 18>;
-            bindings = <&kp CAPS>;
-        };
-
-        combo_cps2 {
-            timeout-ms = <20>;
-            key-positions = <21 22>;
-            bindings = <&kp CAPS>;
-        };
-
         combo_lbrc {
             timeout-ms = <20>;
             key-positions = <5 6>;
