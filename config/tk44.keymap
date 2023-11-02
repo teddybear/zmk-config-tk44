@@ -129,11 +129,13 @@
         };
 
         combo_cps11 {
+            timeout-ms = <20>;
             bindings = <&kp CAPS>;
             key-positions = <32 21>;
         };
 
         combo_cps112 {
+            timeout-ms = <20>;
             bindings = <&kp CAPS>;
             key-positions = <31 18>;
         };
