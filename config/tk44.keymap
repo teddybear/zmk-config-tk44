@@ -139,6 +139,11 @@
             bindings = <&kp CAPS>;
             key-positions = <31 18>;
         };
+
+        uh_combo {
+            bindings = <&kp ENTER>;
+            key-positions = <20 8>;
+        };
     };
 
     keymap {
