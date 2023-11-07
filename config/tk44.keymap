@@ -141,6 +141,7 @@
         };
 
         uh_combo {
+            timeout-ms = <20>;
             bindings = <&kp ENTER>;
             key-positions = <20 8>;
         };
